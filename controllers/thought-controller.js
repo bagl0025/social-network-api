@@ -60,8 +60,7 @@ const thoughtController = {
       new: true,
       runValidators: true,
     })
-      .populate({ path: 'reactions' }) //, select: '-__v'})
-      // .select('-__v')
+      .populate({ path: 'reactions' })
       .then((dbThoughtData) => {
         if (!dbThoughtData) {
           res.status(404).json({ message: 'No thoughts with this id!' });

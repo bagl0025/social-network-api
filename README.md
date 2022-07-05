@@ -7,7 +7,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Social Network API is ....
+Social Network API is a web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, and the Mongoose ODM.
 
 # Table of Contents
 
@@ -21,26 +21,26 @@ Social Network API is ....
 ## Installation
 
 - Install node.js
-- download the repo: https://github.com/bagl0025/E-commerce-Back-End.git
+- download the repo: https://github.com/bagl0025/social-network-api.git
 - The dependencies can be installed by running `npm install`
 
 - Run the application using `npm start` or `node server`
 
 ## Usage
 
-There is no front end for this application so you should use Insomnia, Postman, or an API client of your choice to test the routes and functionality. The databse contains the following tables:
+There is no front end for this application so you should use Insomnia, Postman, or an API client of your choice to test the routes and functionality.
 
-Using an API client you can view, create, edit, and delete items from the tables. A video link (below) shows the full functionality using Insomnia. A snapshot of the Insomnia window (below) shows all of the API routes that will be demonstrated in the video.
+Using an API client you can view, create, edit, and delete items. A video link (below) shows the full functionality using Insomnia. A snapshot of the Insomnia window (below) shows all of the API routes that will be demonstrated in the video.
 
 ### Social Network API routes in Insomnia
 
-<img src="./assets/ecommerce-screen.png" alt="ecommerce screenshot" width="600"/>
+<img src="./assets/images/screenshot.png" alt="social network screenshot" width="600"/>
 
 ### Link to demo video
 
 This video loads from Google Drive. It can be downloaded from the Github repo's assets folder.
 
-[Demo Video](https://drive.google.com/file/d/168EKwEu2aXdTZIB1WwmV_YXEZqGmeXIF/view?usp=sharing)
+[Demo Video](https://drive.google.com/file/d/1D3z1jBURAAY6tHHgS-I5y6GS5bDa2YYW/view?usp=sharing)
 
 ## License
 
@@ -56,4 +56,4 @@ Contact author at bagley@umn.edu for questions or to report issues.
 
 ## GitHub
 
-https://github.com/bagl0025/E-Commerce-Back-End
+https://github.com/bagl0025/social-network-api.git

@@ -67,11 +67,9 @@ const userController = {
           res.status(404).json({ message: 'No user found with this id!' });
           return;
         }
-        // Thought.deleteMany({ _id: { $in: dbUSerData.thoughts } });
         Thought.deleteMany({ username: dbUserData.username }).then(() => {
           res.json({ message: 'User and thoughts deleted!' });
         });
-        // res.json(dbUserData))
       })
       .catch((err) => res.json(err));
   },
@@ -82,7 +80,6 @@ const userController = {
       { $addToSet: { friends: params.friendId } },
       { new: true, runValidators: true }
     )
-      // .select('-__v')
       .then((dbUserData) => {
         if (!dbUserData) {
           res.status(404).json({ message: 'No user found with this id!' });
@@ -99,7 +96,6 @@ const userController = {
       { $pull: { friends: params.friendId } },
       { new: true, runValidators: true }
     )
-      // .select('-__v')
       .then((dbUserData) => {
         if (!dbUserData) {
           res.status(404).json({ message: 'No friend found with this id!' });
